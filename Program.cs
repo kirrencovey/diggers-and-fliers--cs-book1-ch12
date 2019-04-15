@@ -65,11 +65,11 @@ namespace diggers_and_fliers
         }
         public void fly()
         {
-            Console.WriteLine("Animal is flying");
+            Console.WriteLine("The parakeet is flying");
         }
         public void land()
         {
-            Console.WriteLine("Animal has landed");
+            Console.WriteLine("The parakeet has landed");
         }
     }
     public class Earthworm : IDigger
@@ -80,7 +80,7 @@ namespace diggers_and_fliers
         }
         public void dig()
         {
-            Console.WriteLine("Animal is digging");
+            Console.WriteLine("The earthworm is digging");
         }
     }
     public class Terrapin : IWalker, ISwimmer
@@ -91,15 +91,15 @@ namespace diggers_and_fliers
         }
         public void walk()
         {
-            Console.WriteLine("Animal is walking");
+            Console.WriteLine("The terrapin is walking");
         }
         public void run()
         {
-            Console.WriteLine("Animal is running");
+            Console.WriteLine("The terrapin is running");
         }
         public void swim()
         {
-            Console.WriteLine("Animal is swimming");
+            Console.WriteLine("The terrapin is swimming");
         }
         public int MaxDepth {get;} = 5;
     }
@@ -111,11 +111,11 @@ namespace diggers_and_fliers
         }
         public void walk()
         {
-            Console.WriteLine("Animal is slithering slowly");
+            Console.WriteLine("The timber rattlesnake is slithering slowly");
         }
         public void run()
         {
-            Console.WriteLine("Animal is slithering quickly");
+            Console.WriteLine("The timber rattlesnake is slithering quickly");
         }
     }
     public class Mouse : IDigger, IWalker
@@ -126,15 +126,15 @@ namespace diggers_and_fliers
         }
         public void dig()
         {
-            Console.WriteLine("Animal is burrowing");
+            Console.WriteLine("The mouse is burrowing");
         }
         public void walk()
         {
-            Console.WriteLine("Animal is walking");
+            Console.WriteLine("The mouse is walking");
         }
         public void run()
         {
-            Console.WriteLine("Animal is running");
+            Console.WriteLine("The mouse is running");
         }
     }
     public class Ant : IDigger, IWalker
@@ -145,15 +145,15 @@ namespace diggers_and_fliers
         }
         public void dig()
         {
-            Console.WriteLine("Animal is digging");
+            Console.WriteLine("The ant is tunneling");
         }
         public void walk()
         {
-            Console.WriteLine("Animal is walking");
+            Console.WriteLine("The ant is walking");
         }
         public void run()
         {
-            Console.WriteLine("Animal is running");
+            Console.WriteLine("The ant is walking faster");
         }
     }
     public class Finch : IFlier, IWalker
@@ -164,19 +164,19 @@ namespace diggers_and_fliers
         }
         public void fly()
         {
-            Console.WriteLine("Animal is flying");
+            Console.WriteLine("The finch is flying");
         }
         public void land()
         {
-            Console.WriteLine("Animal has landed");
+            Console.WriteLine("The finch has landed");
         }
         public void walk()
         {
-            Console.WriteLine("Animal is hopping slowly");
+            Console.WriteLine("The finch is hopping slowly");
         }
         public void run()
         {
-            Console.WriteLine("Animal is hopping quickly");
+            Console.WriteLine("The finch is hopping quickly");
         }
     }
     public class Betta : ISwimmer
@@ -187,7 +187,7 @@ namespace diggers_and_fliers
         }
         public void swim()
         {
-            Console.WriteLine("Animal is swimming");
+            Console.WriteLine("The betta is swimming");
         }
         public int MaxDepth {get;} = 10;
     }
@@ -199,11 +199,11 @@ namespace diggers_and_fliers
         }
         public void walk()
         {
-            Console.WriteLine("Animal is slithering slowly");
+            Console.WriteLine("The copperhead is slithering slowly");
         }
         public void run()
         {
-            Console.WriteLine("Animal is slithering quickly");
+            Console.WriteLine("The copperhead is slithering quickly");
         }
     }
     public class Gerbil : IDigger, IWalker
@@ -214,15 +214,15 @@ namespace diggers_and_fliers
         }
         public void dig()
         {
-            Console.WriteLine("Animal is burrowing");
+            Console.WriteLine("The gerbil is burrowing");
         }
         public void walk()
         {
-            Console.WriteLine("Animal is slithering slowly");
+            Console.WriteLine("The gerbil is walking");
         }
         public void run()
         {
-            Console.WriteLine("Animal is slithering quickly");
+            Console.WriteLine("The gerbil is running");
         }
     }
 
