@@ -255,44 +255,34 @@ namespace diggers_and_fliers
             FlierContainer aviary = new FlierContainer();
 
             // Create one of each animal, add to appropriate container
-            Parakeet simon = new Parakeet("Simon the Parakeet");
-            aviary.ContainedAnimals.Add(simon);
+            aviary.ContainedAnimals.Add(new Parakeet("Simon the Parakeet"));
 
-            Earthworm jorah = new Earthworm("Jorah the Earthworm");
-            dirtBox.ContainedAnimals.Add(jorah);
+            dirtBox.ContainedAnimals.Add(new Earthworm("Jorah the Earthworm"));
 
-            Terrapin calamy = new Terrapin("Calamy the Terrapin");
-            aquarium.ContainedAnimals.Add(calamy);
+            aquarium.ContainedAnimals.Add(new Terrapin("Calamy the Terrapin"));
 
-            TimberRattlesnake broderick = new TimberRattlesnake("Broderick the Timber Rattlesnake");
-            fencedArea.ContainedAnimals.Add(broderick);
+            fencedArea.ContainedAnimals.Add(new TimberRattlesnake("Broderick the Timber Rattlesnake"));
 
-            Mouse sawyer = new Mouse("Sawyer the Mouse");
-            dirtBox.ContainedAnimals.Add(sawyer);
+            dirtBox.ContainedAnimals.Add(new Mouse("Sawyer the Mouse"));
 
-            Ant finn = new Ant("Finn the Ant");
-            dirtBox.ContainedAnimals.Add(finn);
+            dirtBox.ContainedAnimals.Add(new Ant("Finn the Ant"));
 
-            Finch odin = new Finch("Odin the Finch");
-            aviary.ContainedAnimals.Add(odin);
+            aviary.ContainedAnimals.Add(new Finch("Odin the Finch"));
 
-            Betta thor = new Betta("Thor the Betta");
-            aquarium.ContainedAnimals.Add(thor);
+            aquarium.ContainedAnimals.Add(new Betta("Thor the Betta"));
 
-            Copperhead martin = new Copperhead("Martin the Copperhead");
-            fencedArea.ContainedAnimals.Add(martin);
+            fencedArea.ContainedAnimals.Add(new Copperhead("Martin the Copperhead"));
 
-            Gerbil gertie = new Gerbil("Gertie the Gerbil");
-            dirtBox.ContainedAnimals.Add(gertie);
+            dirtBox.ContainedAnimals.Add(new Gerbil("Gertie the Gerbil"));
 
             Console.WriteLine("Dirt Box contains:");
-            dirtBox.ContainedAnimals.ForEach(animal => Console.WriteLine(animal.Name));
+            dirtBox.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
             Console.WriteLine("Fenced Area contains:");
-            fencedArea.ContainedAnimals.ForEach(animal => Console.WriteLine(animal.Name));
+            fencedArea.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
             Console.WriteLine("Aquarium contains:");
-            aquarium.ContainedAnimals.ForEach(animal => Console.WriteLine(animal.Name));
+            aquarium.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
             Console.WriteLine("Aviary contains:");
-            aviary.ContainedAnimals.ForEach(animal => Console.WriteLine(animal.Name));
+            aviary.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
         }
     }
 }
