@@ -1,0 +1,11 @@
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/bin/Debug/netcoreapp2.2/diggers-and-fliers.deps.json
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/bin/Debug/netcoreapp2.2/diggers-and-fliers.runtimeconfig.json
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/bin/Debug/netcoreapp2.2/diggers-and-fliers.runtimeconfig.dev.json
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/bin/Debug/netcoreapp2.2/diggers-and-fliers.dll
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/bin/Debug/netcoreapp2.2/diggers-and-fliers.pdb
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/obj/Debug/netcoreapp2.2/diggers-and-fliers.csprojAssemblyReference.cache
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/obj/Debug/netcoreapp2.2/diggers-and-fliers.csproj.CoreCompileInputs.cache
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/obj/Debug/netcoreapp2.2/diggers-and-fliers.AssemblyInfoInputs.cache
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/obj/Debug/netcoreapp2.2/diggers-and-fliers.AssemblyInfo.cs
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/obj/Debug/netcoreapp2.2/diggers-and-fliers.dll
+/Users/kirren/workspace/csharp/exercises/diggers-and-fliers/obj/Debug/netcoreapp2.2/diggers-and-fliers.pdb
